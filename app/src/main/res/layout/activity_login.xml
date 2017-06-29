@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.bank.Login">
+
+    <EditText
+        android:id="@+id/uname"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_alignStart="@+id/contact"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/editbox"
+        android:drawableLeft="@drawable/name1"
+        android:hint="User Name.:"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:id="@+id/pwd"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_alignStart="@+id/contact"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/editbox"
+        android:drawableLeft="@drawable/pass1"
+        android:hint="Password.:"
+        android:textColorHint="#000000" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:background="@drawable/button1"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+</LinearLayout>

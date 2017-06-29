@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.hp.bank.Regist">
+
+    <EditText
+        android:id="@+id/uname1"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_alignStart="@+id/contact"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/editbox"
+        android:drawableLeft="@drawable/name1"
+        android:hint="User Name.:"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:id="@+id/pwd1"
+        android:inputType="textWebPassword"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_alignStart="@+id/contact"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/editbox"
+        android:drawableLeft="@drawable/pass1"
+        android:hint="Password.:"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:id="@+id/add"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_alignStart="@+id/contact"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/editbox"
+        android:drawableLeft="@drawable/add1"
+        android:hint="Address.:"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:id="@+id/con"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:inputType="number"
+        android:layout_alignStart="@+id/contact"
+        android:layout_below="@+id/textView2"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/editbox"
+        android:drawableLeft="@drawable/contact1"
+        android:hint="Contact No.:"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_alignStart="@+id/contact"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/editbox"
+        android:drawableLeft="@drawable/email1"
+        android:hint="Email ID.:"
+        android:textColorHint="#000000" />
+
+    <Spinner
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/type"
+        android:background="@drawable/editbox"
+        ></Spinner>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:text="Registration"
+        android:background="@drawable/button1"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_regi"/>
+
+</LinearLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.bank.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shutterstock"
+        android:alpha="0.8"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#a5000000"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/bank3"
+                android:layout_marginStart="147dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <!--<Button-->
+        <!--android:id="@+id/login"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_weight="0.00"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:text="Login"-->
+        <!--android:background="#24aabbcc"-->
+        <!--android:textColor="#000000"/>-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Registration"-->
+        <!--android:textColor="#000000"-->
+        <!--android:textSize="30dp"-->
+        <!--android:layout_marginTop="27dp"-->
+        <!--android:id="@+id/textView2"-->
+        <!--android:layout_below="@+id/login"-->
+        <!--android:layout_centerHorizontal="true" />-->
+
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:text="Registration"
+        android:background="@drawable/button1"
+        android:id="@+id/regi"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="97dp" />
+    <Button
+        android:layout_width="195dp"
+        android:background="@drawable/button1"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/login"
+        android:layout_alignBaseline="@+id/regi"
+        android:layout_alignBottom="@+id/regi"
+        android:layout_toEndOf="@+id/regi" />
+    <!--<EditText-->
+        <!--android:layout_width="300dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_marginTop="26dp"-->
+        <!--android:id="@+id/name"-->
+        <!--android:hint="Name.:"-->
+        <!--android:textColorHint="#000000"-->
+        <!--android:background="@drawable/editbox"-->
+        <!--android:drawableLeft="@drawable/name1"-->
+        <!--android:layout_below="@+id/textView2"-->
+        <!--android:layout_alignStart="@+id/contact" />-->
+
+
+    <!--<EditText-->
+        <!--android:layout_width="300dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:hint="Contact no.:"-->
+        <!--android:textColorHint="#000000"-->
+        <!--android:id="@+id/contact"-->
+        <!--android:drawableLeft="@drawable/contact1"-->
+        <!--android:background="@drawable/editbox"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:layout_below="@+id/name"-->
+        <!--android:layout_centerHorizontal="true" />-->
+
+    <!--<EditText-->
+        <!--android:layout_width="300dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:hint="Contact no.:"-->
+        <!--android:textColorHint="#000000"-->
+        <!--android:drawableLeft="@drawable/contact1"-->
+        <!--android:background="@drawable/editbox"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:layout_below="@+id/name"-->
+        <!--android:layout_centerHorizontal="true" />-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:id="@+id/frag"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/login"></RelativeLayout>
+</RelativeLayout>
