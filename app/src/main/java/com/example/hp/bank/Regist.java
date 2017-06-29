@@ -92,7 +92,7 @@ public class Regist extends Fragment {
 
                         @Override
                         public void onCallback(String response) {
-                            Log.d("myapp", response);
+                            Log.d("my", response);
                             JavaDemo model = new Gson().fromJson(response, JavaDemo.class);
                            // Toast.makeText(getContext(), model.getMessage(), Toast.LENGTH_SHORT).show();
 
